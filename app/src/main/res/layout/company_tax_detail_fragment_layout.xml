@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+        <com.invoice.aipxperts.Widget.Edittext_Regular
+            android:id="@+id/edt_company_pan"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Company's PAN"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:inputType="textCapSentences"
+            android:background="@drawable/edit_bg_curve_without_focus"
+            android:layout_marginTop="20dp"
+            android:imeOptions="actionNext"
+            style="@style/edit_style"/>
+        <com.invoice.aipxperts.Widget.Edittext_Regular
+            android:id="@+id/edt_tax_no"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="Tax No"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/edit_bg_curve_without_focus"
+            android:layout_marginTop="20dp"
+            android:imeOptions="actionNext"
+            style="@style/edit_style"/>
+        <com.invoice.aipxperts.Widget.Edittext_Regular
+            android:id="@+id/edt_gst_no"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:hint="GST No"
+            android:layout_marginLeft="10dp"
+            android:layout_marginRight="10dp"
+            android:singleLine="true"
+            android:inputType="number"
+            android:background="@drawable/edit_bg_curve_without_focus"
+            android:layout_marginTop="20dp"
+            android:imeOptions="actionDone"
+            style="@style/edit_style"/>
+        <com.invoice.aipxperts.Widget.TextView_Regular
+            android:id="@+id/txt_done"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_gravity="right"
+            android:gravity="center"
+            android:layout_marginTop="20dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginBottom="25dp"
+            android:textColor="#ffffff"
+            android:background="@color/colorPrimary"
+            android:text="DONE"
+            android:textSize="19sp" />
+    </LinearLayout>
+</layout>
